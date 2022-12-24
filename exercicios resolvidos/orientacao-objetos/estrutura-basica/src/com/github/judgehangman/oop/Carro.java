@@ -1,18 +1,13 @@
-package com.github.judgehangman.poo;
+package com.github.judgehangman.oop;
 
 class Carro{
 
-    /* Aqui fica o código da classe */
     String cor;
     String modelo;
     int capacidadeTanque;
 
     // Construtores
-
-    Carro(){
-
-
-    }
+    Carro(){    }
 
     Carro(String cor, String modelo, int capacidadeTanque){
         this.cor = cor;
@@ -20,6 +15,7 @@ class Carro{
         this.capacidadeTanque = capacidadeTanque;
     }
 
+    // GETTERS E SETTERS
     void setCor(String cor){
         this.cor = cor;
     }
@@ -44,12 +40,8 @@ class Carro{
         return capacidadeTanque;
     }
 
-    // Método funcional
-
+    // MÉTODOS
     double calcValorTotal(double valorGasolina){
         return capacidadeTanque * valorGasolina;
     }
-
-
-
 }
