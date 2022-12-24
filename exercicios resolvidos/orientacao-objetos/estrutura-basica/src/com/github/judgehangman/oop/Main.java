@@ -1,8 +1,10 @@
-package com.github.judgehangman.poo;
+package com.github.judgehangman.oop;
 
 public class Main {
 
     public static void main (String[] args) {
+
+        // Chevrolet Impala 1967 Preto
 
         Carro chevyImpala67Black = new Carro();
 
@@ -15,6 +17,8 @@ public class Main {
         System.out.println(chevyImpala67Black.getCapacidadeTanque());
         System.out.println(chevyImpala67Black.calcValorTotal(4.92));
 
+        // Saturn Sky 2007 Vermelho
+
         Carro saturnSky = new Carro("Vermelho", "2007 Saturn Sky", 51);
 
         System.out.println(saturnSky.getCor());
@@ -22,5 +26,4 @@ public class Main {
         System.out.println(saturnSky.getCapacidadeTanque());
         System.out.println(saturnSky.calcValorTotal(5.19));
     }
-
 }
